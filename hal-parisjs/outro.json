@@ -1,0 +1,34 @@
+{
+  "titre": "HAL : ressources supplémentaires",
+  "page": "5/5",
+  "_links": {
+    "external": [{
+      "title": "HAL - Hypertext Application Language",
+      "href": "http://stateless.co/hal_specification.html"
+    }, {
+      "title": "HAL Talk, demo API using HAL Browser",
+      "href": "http://haltalk.herokuapp.com/explorer/browser.html"
+    }, {
+      "title": "Google groups - HAL discuss",
+      "href": "http://groups.google.com/group/hal-discuss"
+    }, {
+      "title": "Github - HAL+json API list",
+      "href": "https://github.com/mikekelly/hal_specification/wiki/APIs"
+    }, {
+      "title": "Roy Fielding - Architectural Styles and the Design of Network-based Software Architectures",
+      "href": "https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+    }, {
+      "title": "Unexpected Token - How your API could benefit from Hypermedia",
+      "href": "https://medium.com/unexpected-token/how-your-api-could-benefit-from-hypermedia-b62780771ccb"
+    }, {
+      "title": "Virginie Bardales - Node.js Paris @ Google - REST world",
+      "href": "https://www.youtube.com/watch?v=OtN6SmnSS48"
+    }],
+    "prev": {
+      "href": "http://risseraka.github.io/hal-parisjs/how.json"
+    },
+    "first": {
+      "href": "http://risseraka.github.io/hal-parisjs/intro.json"
+    }
+  }
+}

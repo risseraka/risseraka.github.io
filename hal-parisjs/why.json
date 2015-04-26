@@ -1,0 +1,32 @@
+{
+  "titre": "HAL : pourquoi ?",
+  "contenu": {
+    "HTTP + contraintes = WIN": [
+      "client-serveur, stateless (scalable), cache, etc...",
+      {
+        "interface uniforme": [
+          "resources",
+          "representations",
+          "hypermedia as the engine of application state"
+        ]
+      }
+    ],
+    "HTML : HYPERTEXT Markup Language": [
+      "liens textuels -> hypertext (duh)",
+      "liens medias   -> hyper...media!"
+    ],
+    "APIs JSON": {
+      "client": "une seule syntaxe, multi-plateformes",
+      "serveur": "natif Node.js / (server)"
+    }
+  },
+  "page": "2/5",
+  "_links": {
+    "prev": {
+      "href": "http://risseraka.github.io/hal-parisjs/intro.json"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-parisjs/what.json"
+    }
+  }
+}

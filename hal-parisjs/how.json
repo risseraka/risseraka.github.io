@@ -1,0 +1,39 @@
+{
+  "titre": "HAL : comment ?",
+  "contenu": {
+    "headers": "Content-Type: application/hal+json",
+    "body": {
+      "name": "Adrien",
+      "_links": {
+        "self": {
+          "href": "http://example.com/users/adrien"
+        },
+        "children": {
+          "href": "http://example.com/users/adrien/children"
+        }
+      },
+      "_embedded": {
+        "children": [
+          {
+            "name": "Alex",
+            "_links": {
+              "self": "http://example.com/users/alex",
+              "parent": "http://example.com/users/adrien"
+            }
+          },
+          {},
+          "etc..."
+        ]
+      }
+    }
+  },
+  "page": "4/5",
+  "_links": {
+    "prev": {
+      "href": "http://risseraka.github.io/hal-parisjs/what.json"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-parisjs/outro.json"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Introduction a HAL, Hypertext Application Language, Paris.js #46",
+  "contenu": {
+    "sommaire": [
+      "pourquoi HAL ?",
+      "c'est quoi ?",
+      "comment faire ?",
+      "ressources supplementaires"
+    ]
+  },
+  "page": "1/5",
+  "_links": {
+    "author": {
+      "title": "Adrien Risser",
+      "href": "mailto:risseraka@gmail.com"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-parisjs/why.json"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "titre": "HAL : c'est quoi ?",
+  "contenu": {
+    "auteur": "Mike Kelly",
+    "media type": {
+      "exemples": "text/html, application/json, image/png, etc...",
+      "liste officielle": "https://www.iana.org/assignments/media-types/media-types.xhtml"
+   },
+    "specs": {
+      "documentation": "http://stateless.co/hal_specification.html",
+      "RFC (draft)": "http://tools.ietf.org/html/draft-kelly-json-hal"
+    },
+    "JSON simple + attributs (optionels)": {
+      "_links": {
+        "self": {
+          "href": "http://risseraka.github.io/hal-parisjs/what.json",
+          "title": "URI de la ressource courante (optionel)"
+        },
+        "relation": {
+          "href": "http://risseraka.github.io/hal-parisjs/",
+          "title": "actions ou contenu accessibles en relation avec la ressource courante"
+        }
+      },
+      "_embedded": "ressources complètes ou partielles en relation avec la ressource courante"
+    }
+  },
+  "page": "3/5",
+  "_links": {
+    "prev": {
+      "href": "http://risseraka.github.io/hal-parisjs/why.json"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-parisjs/how.json"
+    }
+  }
+}
