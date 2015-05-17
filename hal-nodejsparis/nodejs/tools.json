@@ -1,0 +1,25 @@
+{
+  "title": "Les outils Node.js pour faire du HAL",
+  "contenu": {
+    "parsers / builders": {
+      "hal (JSON / XML)": "https://www.npmjs.com/package/hal",
+      "halfred": "https://www.npmjs.com/package/halfred",
+      "halson": "https://www.npmjs.com/package/halson",
+      "halbert": "https://www.npmjs.com/package/halbert"
+    },
+    "middlewares": {
+      "express-hal": "https://www.npmjs.com/package/express-hal",
+      "koa-hal": "https://www.npmjs.com/package/koa-hal",
+      "halacious (hapi)": "https://www.npmjs.com/package/halacious"
+    },
+    "clients hypermedia": {
+      "traverson-hal": "https://www.npmjs.com/package/traverson-hal",
+      "hyperspider": "https://www.npmjs.com/package/hyperspider"
+    }
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/halbrowser/demo.json"
+    }
+  }
+}

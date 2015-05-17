@@ -1,0 +1,38 @@
+{
+  "titre": "Le media type HAL. Comment ?",
+  "contenu": "ceci est une pipe",
+  "_links": {
+    "self": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hal/example.json"
+    },
+    "author": {
+      "href": "http://linkedin.com/in/adrienrisser"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hal/why.json"
+    }
+  },
+  "_embedded": {
+    "author": {
+      "nom": "Adrien Risser",
+      "titre": "Freelance Node.js",
+      "_links": {
+        "self": {
+          "href": "http://linkedin.com/in/adrienrisser"
+        },
+        "projects": {
+          "href": "http://example.com/adrien/projects"
+        }
+      }
+    },
+    "tag": [
+      {
+        "name": "hypermedia",
+        "_links": {
+          "self": "http://en.wikipedia.org/wiki/Hypermedia"
+        }
+      },
+      "etc..."
+    ]
+  }
+}

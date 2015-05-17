@@ -1,0 +1,12 @@
+{
+  "title": "Demo HAL Browser",
+  "contenu": {
+    "recherche google": "https://www.google.com/webhp?hl=en#hl=en&q=halbrowser",
+    "haltalk": "http://haltalk.herokuapp.com/explorer/browser.html"
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/outro.json"
+    }
+  }
+}

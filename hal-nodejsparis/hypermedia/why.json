@@ -1,0 +1,24 @@
+{
+  "titre": "Une API Hypermedia, c'est quoi ? Ca vient d'ou ?",
+  "contenu": {
+    "WEB = HTTP + HTML": "Hypertext Quelquechose Quelquechose",
+    "HTTP": {
+      "user-agent -> serveur": "browser -> node.js",
+      "methodes": "HEAD / GET / POST / PUT / DELETE / PATCH / ...",
+      "metadata": "headers",
+      "status codes": "1xx, 2xx, 3xx, 4xx, 5xx"
+    },
+    "HTML": {
+      "liens": [
+        "text (documents) -> hypertext",
+        "medias (images, son, videos) -> hyper...media!"
+      ],
+      "formulaires": "GET / POST"
+    }
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hypermedia/what.json"
+    }
+  }
+}

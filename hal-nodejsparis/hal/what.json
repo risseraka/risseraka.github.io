@@ -1,0 +1,32 @@
+{
+  "titre": "Le media type HAL. C'est quoi ?",
+  "contenu": {
+    "auteur": "Mike Kelly",
+    "media type": {
+      "standard": "type de donnees",
+      "Content-Type": [
+        "text/html",
+        "application/json",
+        "image/png",
+        "video/avi",
+        "etc..."
+      ],
+      "officiels": "https://www.iana.org/assignments/media-types/media-types.xhtml"
+    }
+  },
+  "_links": {
+    "external": [{
+      "documentation": {
+        "title": "documentation developpeur",
+        "href": "http://stateless.co/hal_specification.html"
+      },
+      "rfc": {
+        "title": "RFC (draft)",
+        "href": "http://tools.ietf.org/html/draft-kelly-json-hal"
+      }
+    }],
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hal/how.json"
+    }
+  }
+}

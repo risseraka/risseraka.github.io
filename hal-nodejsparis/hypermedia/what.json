@@ -1,0 +1,26 @@
+{
+  "titre": "Une API Hypermedia, c'est quoi ? Comment ?",
+  "contenu": {
+    "hypermedia": "autre nom API REST",
+    "auteur": "Roy T. Fielding (spec HTTP)",
+    "6 contraintes majeures": {
+      "client -> serveur": "browser -> node.js",
+      "stateless": "requetes independantes",
+      "cache": "scalabilite, performance",
+      "systeme en couche": "cache, proxy, firewall, ...",
+      "code-on-demand (optionel)": "ex : JavaScript",
+      "interface uniforme": "methodes, metadata et codes standards"
+    },
+    "interface uniforme": {
+      "ressources": "URI",
+      "representations des ressources": "HTML, JSON",
+      "messages auto-descriptifs": "MEDIA-TYPES (!)",
+      "HYPERMEDIA (!)": "moteur de l'etat de l'application (HATEOAS)"
+    }
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hal/what.json"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Le media type HAL, Hypertext Application Language, pourquoi et comment ?",
+  "evenement": "Node.js Paris S02E08 chez Maltem",
+  "contenu": {
+    "sommaire": [
+      "Une API Hypermedia, c'est quoi ?",
+      "Le media type HAL",
+      "Les outils Node.js pour faire du HAL",
+      "HAL Browser pour naviguer facilement dans son API",
+      "Ressources supplementaires"
+    ]
+  },
+  "_links": {
+    "author": {
+      "title": "Adrien Risser (@risseraka)",
+      "href": "mailto:risseraka@gmail.com"
+    },
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hypermedia/why.json"
+    }
+  }
+}

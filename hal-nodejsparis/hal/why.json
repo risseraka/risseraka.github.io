@@ -1,0 +1,24 @@
+{
+  "titre": "Le media type HAL. Mais pourqoi ?",
+  "contenu": {
+    "JSON": {
+      "client": [
+        "une seule syntaxe",
+        "multi-plateformes"
+      ],
+      "serveur": [
+        "natif",
+        "base de donnees"
+      ]
+    },
+    "hypermedia": [
+      "service discovery",
+      "crawl automatique"
+    ]
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/nodejs/tools.json"
+    }
+  }
+}

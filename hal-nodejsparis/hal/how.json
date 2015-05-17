@@ -1,0 +1,25 @@
+{
+  "titre": "Le media type HAL. Comment ?",
+  "contenu": {
+    "headers": "Content-Type: application/hal+json",
+    "body": "ressource (etat)",
+    "attributs (optionels)": [{
+      "_links": [
+        "liens vers actions ou contenus accessible",
+        "objets ou tableaux",
+        "attributs (href, templated, title, name)"
+      ]
+    }, {
+      "_embedded": [
+        "ressources completes ou partielles",
+        "objets ou tableaux",
+        "caching hypermedia"
+      ]
+    }]
+  },
+  "_links": {
+    "next": {
+      "href": "http://risseraka.github.io/hal-nodejsparis/hal/example.json"
+    }
+  }
+}
